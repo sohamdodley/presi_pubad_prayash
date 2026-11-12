@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Prayash Tamang | Presidency University</title>
+<style>
+  :root {
+    --primary: #1a365d;
+    --accent: #2b6cb0;
+    --light: #f7fafc;
+    --text: #2d3748;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: var(--text);
+    line-height: 1.6;
+    background: #fff;
+  }
+  header {
+    background: var(--primary);
+    color: white;
+    padding: 2.5rem 1.5rem 2rem;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  header .subtitle {
+    font-size: 1.15rem;
+    opacity: 0.95;
+    margin-bottom: 0.8rem;
+  }
+  header .email a {
+    color: #bee3f8;
+    text-decoration: none;
+  }
+  header .email a:hover { text-decoration: underline; }
+  nav {
+    background: #2c5282;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+  }
+  nav a:hover, nav a.active {
+    background: rgba(255,255,255,0.15);
+  }
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+  }
+  section {
+    margin-bottom: 3rem;
+    scroll-margin-top: 1rem;
+  }
+  section h2 {
+    color: var(--primary);
+    font-size: 1.6rem;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.2rem;
+  }
+  .profile-box {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    background: var(--light);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  .profile-photo {
+    width: 140px;
+    height: auto;
+    border-radius: 4px;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .qual-item, .pub-item {
+    margin-bottom: 1.4rem;
+  }
+  .qual-item strong, .pub-item strong {
+    color: var(--primary);
+  }
+  .pub-category {
+    font-weight: 600;
+    color: var(--accent);
+    margin: 1.5rem 0 0.6rem;
+    font-size: 1.1rem;
+  }
+  ul {
+    margin-left: 1.2rem;
+  }
+  li { margin-bottom: 0.4rem; }
+  footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 600px) {
+    .profile-box { flex-direction: column; align-items: center; text-align: center; }
+    header h1 { font-size: 1.7rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Dr. Prayash Tamang (He/Him/His)</h1>
+  <div class="subtitle">Assistant Librarian<br>Department of Library<br>Presidency University, Kolkata (3rd Campus, Dowhill, Kurseong, West Bengal)</div>
+  <div class="email">Official Email ID: <a href="mailto:prayash.lib@presiuniv.ac.in">prayash.lib@presiuniv.ac.in</a></div>
+  <div class="scholar" style="margin-top:0.4rem;">Google Scholar: <a href="https://scholar.google.com/scholar?q=%22Prayash+Tamang%22" target="_blank" rel="noopener">Prayash Tamang - Google Scholar</a></div>
+</header>
+
+<nav>
+  <a href="#home" class="active">Home</a>
+  <a href="#qualifications">Academic Qualifications</a>
+  <a href="#publications">Publications</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+<section id="home">
+  <div class="profile-box">
+    <img src="photo.jpg" alt="Dr. Prayash Tamang" class="profile-photo">
+    <div>
+      <h2 style="border:none; margin-bottom:0.6rem; font-size:1.4rem;">Academic Profile</h2>
+      <p>Assistant Librarian, Department of Library, Presidency University, Kolkata (3rd Campus, Dowhill, Kurseong, West Bengal).</p>
+      <p style="margin-top:0.6rem;">PhD (Calcutta University, 2023).</p>
+    </div>
+  </div>
+</section>
+
+<section id="qualifications">
+  <h2>Academic Qualifications</h2>
+
+  <div class="qual-item">
+    <strong>Doctor of Philosophy</strong><br>
+    Calcutta University<br>
+    Duration: 2023
+  </div>
+
+  <div class="qual-item">
+    <strong>Master of Library and Information Science (MLIS)</strong><br>
+    North Bengal University<br>
+    Duration: 2013
+  </div>
+
+  <div class="qual-item">
+    <strong>Bachelor of Library and Information Science (BLIS)</strong><br>
+    DS College, Sikkim University<br>
+    Duration: 2011
+  </div>
+
+  <div class="qual-item">
+    <strong>Bachelor of Science (BSc)</strong><br>
+    St. Joseph's College, North Bengal University<br>
+    Duration: 2008
+  </div>
+
+  <div class="qual-item">
+    <strong>UGC NET-JRF</strong><br>
+    2013
+  </div>
+</section>
+
+<section id="publications">
+  <h2>Publications: Academic</h2>
+
+  <div class="pub-category">Book Chapters</div>
+  <div class="pub-item">2015: Tamang, P. Development of skills of LIS professionals through trainings and workshops: An Indian context. In P. Mondal & S. Chakraborty (Eds.), LIS Career at the Cross Roads: Challenges and Opportunities (pp. 305–327). Department of Library and Information Science, University of Calcutta.</div>
+
+  <div class="pub-category">Conference Proceedings</div>
+  <div class="pub-item">2014: Tamang, P. & Maitra, P. B. Organic farming of mineral spring area of Darjeeling district of West Bengal: An indigenous knowledge practice. In Roadmap to usher in knowledge society: Proceedings of the 26th IASLIC National Seminar (pp. 107–111). Indian Association of Special Libraries and Information Centres (IASLIC).</div>
+
+  <div class="pub-category">Journals</div>
+  <div class="pub-item">2023: Tamang, P. Guidelines on information services to organic farmers of Darjeeling district of West Bengal: A model. RBU Journal of Library & Information Science, 25</div>
+  <div class="pub-item">2024: Tamang, P., & Maitra, P. B. Mapping the Routes of Open Access: A Bibliometric Analysis of Indian Contributions to Organic Agriculture (2019–2024). LIS Links Newsletter, 10(1), 47-56. http://newsletter.lislinks.com</div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Official Email ID: <a href="mailto:prayash.lib@presiuniv.ac.in">prayash.lib@presiuniv.ac.in</a></p>
+  <p style="margin-top:0.6rem;">Contact no.: 9593291870</p>
+  <p style="margin-top:0.6rem;">Address: Department of Library, Presidency University, Kolkata (3rd Campus, Dowhill, Kurseong, West Bengal).</p>
+  <p style="margin-top:0.6rem;">Google Scholar: <a href="https://scholar.google.com/citations?user=rtizUUsAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">https://scholar.google.com/citations?user=rtizUUsAAAAJ&hl=en&oi=ao</a></p>
+</section>
+
+</main>
+
+<footer>
+  Dr. Prayash Tamang · Assistant Librarian · Department of Library · Presidency University
+</footer>
+
+</body>
+</html>
